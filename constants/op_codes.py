@@ -1,0 +1,2 @@
+A_OP_CODE = "0"
+C_OP_CODE = "111"
