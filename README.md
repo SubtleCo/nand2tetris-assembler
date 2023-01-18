@@ -24,12 +24,12 @@ binary `.hack` file.
 
 ### Symbols
 
-![Screenshot 2023-01-18 at 9.37.21 AM.png](..%2F..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202023-01-18%20at%209.37.21%20AM.png)
+![static_symbols.png](images%2Fstatic_symbols.png)
 
 ### Destination and Jump Commands
 
-![Screenshot 2023-01-18 at 9.37.16 AM.png](..%2F..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202023-01-18%20at%209.37.16%20AM.png)
+![dest_jump.png](images%2Fdest_jump.png)
 
 ### Computation Commands
 
-![Screenshot 2023-01-18 at 9.37.11 AM.png](..%2F..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202023-01-18%20at%209.37.11%20AM.png)
+![comp.png](images%2Fcomp.png)
