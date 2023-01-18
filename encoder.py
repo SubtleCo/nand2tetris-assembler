@@ -7,8 +7,8 @@ from constants.jump_table import jump_table
 from constants.op_codes import A_OP_CODE, C_OP_CODE
 from symbols import symbols
 
-
 variable_location = count(16)
+
 
 def format_C_instruction(comp: str, dest: str, jump: str) -> str:
     """ Translate elements of C instruction to binary, format command"""
@@ -43,6 +43,7 @@ def encode(executable_code: list) -> list:
             # A instruction
             formatted_address = format_A_instruction(line)
             instructions.append(formatted_address)
+
         elif "=" in line and ";" in line:
             # C instruction with COMP, DEST, JUMP
             dest, comp_jump = line.split("=")
@@ -68,5 +69,3 @@ def encode(executable_code: list) -> list:
             raise ValueError({"message": f"You've got an error with the line {line}"})
 
     return instructions
-
-
